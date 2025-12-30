@@ -43,7 +43,7 @@ jobs:
       - name: autograding-command-grader
         if: always()
         id: run-tests
-        uses: baraksu-class-2026/autograding-command-grader@v1
+        uses: baraksu-class-2026/manual-command-grader@v1
         with:
           test-name: Junit And AI.
           score: ${{ steps.ai_review.outputs.adjusted_grade || steps.grade.outputs.grade }}

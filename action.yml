@@ -1,7 +1,7 @@
 name: "GitHub Classroom Grader"
-author: "baraksu"
+author: "baraksu-class-2026"
 description: "Take the score from score parameter"
-icon: cloud-lightning
+icon: bold
 color: blue
 inputs:
   test-name:
