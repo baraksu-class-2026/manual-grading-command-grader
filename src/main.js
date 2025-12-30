@@ -22,6 +22,7 @@ async function run() {
           {
             name: testName,
             score: score,
+            status: overallStatus,
             message:'Your score is base on Junit and AI',
             line_no: 0
             
