@@ -1,0 +1,25 @@
+name: "GitHub Classroom Grader"
+author: "baraksu"
+description: "Take the score from score parameter"
+icon: cloud-lightning
+color: blue
+inputs:
+  test-name:
+    description: "The unique identifier for the test."
+    required: true
+  score:
+    description: "Points awarded for the test if it passes."
+    required: false
+  max-score:
+    description: "Maximum possible score for the assignment."
+    required: false
+  pass-score:
+    description: "The score threshold to pass the test."
+    required: false
+outputs:
+  result:
+    description: "Outputs the result of the grader, indicating the success or failure of the test."
+runs:
+  using: 'node20'
+  main: 'dist/main.js'
+
