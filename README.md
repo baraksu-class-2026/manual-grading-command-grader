@@ -48,7 +48,7 @@ jobs:
           test-name: Junit And AI.
           score: ${{ steps.ai_review.outputs.adjusted_grade || steps.grade.outputs.grade }}
           max-score: 100
-          score-pass: 80
+          pass-score: 80
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
