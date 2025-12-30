@@ -23,6 +23,8 @@ async function run() {
             name: testName,
             score: score,
             message:'Your score is base on Junit and AI',
+            line_no: 0
+            
           }],
     }
 
