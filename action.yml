@@ -20,6 +20,5 @@ outputs:
   result:
     description: "Outputs the result of the grader, indicating the success or failure of the test."
 runs:
-  using: 'node20'
-  main: 'dist/main.js'
-
+  using: "node24"
+  main: "dist/main.js"
